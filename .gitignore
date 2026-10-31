@@ -1,0 +1,9 @@
+.venv/
+.cache/
+artifacts/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+.env
+TEST_REPORT.md

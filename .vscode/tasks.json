@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "PJ14: Run app", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["app.py"], "problemMatcher": []},
+    {"label": "PJ14: Create sample", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["examples/create_sample.py"], "problemMatcher": []},
+    {"label": "PJ14: Tests", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["-m", "pytest", "-q"], "problemMatcher": []}
+  ]
+}
